@@ -1,0 +1,288 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    display: flex;
+
+}
+
+.right,.rright{
+    width: 75vw;
+    min-height: 100vh;
+    background-image: url("images/i6.jpeg");
+    
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    }
+    .rright{
+        /* background: linear-gradient(rgb(50, 37, 4),rgb(21, 20, 20)); */
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 2px;
+       
+    }
+
+.left{
+    width: 25vw;
+    min-height: 100vh;
+    background: linear-gradient(rgb(22, 19, 19),rgb(1, 3, 36));
+    /* background-color: rgb(3, 4, 28); */
+    color: white;
+
+   }
+   .card{width: 20vw;
+    height: 40vh;
+    margin-top: 40px;
+    margin-left:  2.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+   }
+
+   .card img{
+    border: 5px solid goldenrod;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.card h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 5px goldenrod;
+    font-size: 30px;
+    
+}
+.logos{
+   
+    display: flex;
+    width: 25vw;
+    
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+  
+}
+.logos div{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(5, 6, 49);
+    border-radius: 80px;
+    border: 2px solid white;
+
+}
+.logos div img{
+    width: 20px;
+    filter: invert();
+}
+.next{
+    
+    width: 20vw;
+    height: 30vh;
+    margin-top:  40px;
+    margin-left: 20px;
+   }
+   .next ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px
+    ;
+
+   }
+   .next ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+   .next ul li a button{
+    background-color: rgb(1, 1, 16);
+    min-width: 100px;
+    padding: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 3px white inset;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 3px 3px 5px goldenrod;
+   }
+   .logos div:hover{
+    background-color: rgb(14, 14, 99);
+    border: 2px solid  rgb(1, 1, 16);
+    box-shadow: 2px 2px 10px goldenrod;
+    cursor: pointer;
+    padding:2px 5px;
+   }
+   .next ul li a button:hover{
+           background-color: rgb(14, 14, 99);
+           border: 2px solid  rgb(1, 1, 16);
+           box-shadow: 2px 2px 10px goldenrod;
+           cursor: pointer;
+           padding: 5px 15px;
+}
+   .next ul li a button img{
+    filter: invert();
+   }
+ 
+   .info
+   {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 8px;
+    color: white;
+    margin:30vh 22vw;
+    opacity: 0.7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 80px;
+    position: absolute;
+   font-weight: bolder;
+   font-size: larger;
+   font-family:cursive
+    
+   }
+   .info img{
+    position: absolute;
+    bottom: 5px;
+    right: 100px;
+    filter: invert();
+   }
+
+   .rcard{
+    width: 60vw;
+    background-color: rgb(3, 3, 34);
+    opacity: 0.8;
+    border-radius: 30px;
+    position:relative;
+    color: white;
+    margin: 10px 30px;
+    box-shadow: 3px 3px 5px goldenrod;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+  
+   }
+   .rcard img{
+  width: 80px;
+  filter: invert();
+  }
+
+   .cardinfo{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    
+   }
+   .cardinfo h2{
+    padding-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+   }
+   .cardinfo div{
+    font-family: sans-serif;
+   }
+   .rcard:hover{
+    background-color: goldenrod;
+    color: black;
+
+   }
+
+   .contact{
+    background: linear-gradient(rgb(22, 19, 19),rgb(1, 3, 36));
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 60px auto;
+    opacity: 0.8;
+    color:white;
+    position: relative;
+    border-radius: 20px;
+   }
+   .bl{
+    display: flex;
+    flex-direction: column;
+   }
+   .block{
+    padding: 10px;
+    min-width: 180px;
+    min-height: 50px;
+    /* background-color: aquamarine; */
+    margin: 5px;
+
+   }
+   .input{
+    width: 22vw;
+    height: 45vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+    
+   }
+   .input input{
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+
+    height: 20px;
+    border-radius: 4px;
+   }
+  .msg input{
+   max-width: 22vw;
+    height: 80px;
+   
+  }
+  .contact h1{
+    position: absolute;
+    top: 30px;
+  }
+
+  .input button{
+    padding: 7px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(1, 1, 16);
+    color: white;
+    border: 2px solid rgb(6, 116, 116);
+    position: relative;
+    left: 90px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px solid goldenrod;
+  }
+  .input button:hover{
+    background-color: goldenrod;
+    color: black;
+  }
+  
+
+ 
+
+   
